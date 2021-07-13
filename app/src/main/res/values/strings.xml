@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">android-firebase-app</string>
+    <string name="quickstart_message">Welcome to Android Firebase App</string>
+    <string name="log_token">Log Token</string>
+    <string name="msg_token_fmt" translatable="false">android-firebase-app Token: %s</string>
+    <string name="default_notification_channel_id" translatable="false">android-firebase-app</string>
+    <!--
+        This is the name that users will see when interacting with this channel.
+        It should describe the category of notifications that will be sent through this channel
+     -->
+    <!-- [START fcm_default_icon_string] -->
+    <string name="default_notification_channel_name" translatable="true">android_firebase_app_channel</string>
+    <!-- [END fcm_default_icon_string] -->
+    <string name="msg_subscribe_failed">Failed to subscribe to android_firebase_app_channel topic</string>
+    <string name="fcm_message">FCM Message</string>
+</resources>
